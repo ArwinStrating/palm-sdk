@@ -1,0 +1,22 @@
+{
+  "name": "@strating/palm-sdk",
+  "version": "0.0.1",
+  "description": "SDK for developing against Palm",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArwinStrating/palm-sdk.git"
+  },
+  "author": "Arwin Strating",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArwinStrating/palm-sdk/issues"
+  },
+  "homepage": "https://github.com/ArwinStrating/palm-sdk#readme",
+  "dependencies": {
+    "tslint-config-airbnb": "^5.9.2"
+  }
+}
