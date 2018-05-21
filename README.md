@@ -4,6 +4,7 @@
 
  * [Overview](#overview)
  * [Installation](#installation)
+ * [License](#license)
 
 
 ## Overview
@@ -30,3 +31,8 @@ If you are using ES2015, you can `import` the module instead:
 ```js
 import * as palm from "@strating/palm-sdk";
 ```
+
+## License
+
+Palm SDK is licensed under the
+[Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
