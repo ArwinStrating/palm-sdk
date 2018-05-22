@@ -7,6 +7,8 @@
  * [License](#license)
 
 
+[![Build Status](https://travis-ci.org/ArwinStrating/palm-sdk.svg?branch=master)](https://travis-ci.org/ArwinStrating/palm-sdk)
+
 ## Overview
 
 Palm SDK provides functions and tools to be able to easily query developer data from the data warehouse.
