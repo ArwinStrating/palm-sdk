@@ -4,6 +4,7 @@
   "description": "SDK for developing against Palm",
   "main": "src/index.ts",
   "scripts": {
+    "tsc": "tsc",
     "test": "tsc && node dist/test/test.js"
   },
   "repository": {
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/ArwinStrating/palm-sdk#readme",
   "dependencies": {
     "firebase-admin": "^5.12.1",
-    "tslint-config-airbnb": "^5.9.2"
+    "tslint-config-airbnb": "^5.9.2",
+    "typescript": "^2.8.3"
   }
 }
