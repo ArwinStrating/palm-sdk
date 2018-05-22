@@ -1,3 +1,6 @@
+
+[![Build Status](https://travis-ci.org/ArwinStrating/palm-sdk.svg)](https://travis-ci.org/ArwinStrating/palm-sdk)
+
 # Palm SDK
 
 ## Table of Contents
@@ -5,9 +8,6 @@
  * [Overview](#overview)
  * [Installation](#installation)
  * [License](#license)
-
-
-[![Build Status](https://travis-ci.org/ArwinStrating/palm-sdk.svg?branch=master)](https://travis-ci.org/ArwinStrating/palm-sdk)
 
 ## Overview
 
