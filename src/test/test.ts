@@ -1,10 +1,18 @@
-import * as Palm from '../index';
+import * as palm from '../index';
+import * as admin from "firebase-admin";
 
-Palm.getAllGithubPullRequests()
+const serviceAccount = require('../../config.json');
+
+const app = palm.initializeApp({
+    credential: admin.credential.cert(serviceAccount),
+    databaseURL: "https://m4m-code-heroes-dw.firebaseio.com"
+})
+
+app.getAllGithubPullRequests()
     .then(pullRequests => console.log(pullRequests));
 
-Palm.getAllGithubCommits()
+app.getAllGithubCommits()
     .then(commits => console.log(commits));
 
-Palm.getAllTravisBuilds()
+app.getAllTravisBuilds()
     .then(builds => console.log(builds));
